@@ -5,7 +5,6 @@ module.exports = function check(str, bracketsConfig) {
   bracketsConfig.forEach(elem => {
     arr.push(elem.join(''));
     });
-    console.log(arr)
   // Цикл для проверки символа строки str на наличие в массиве
   while (i < arr.length) {
     if (str.includes(arr[i])) {
